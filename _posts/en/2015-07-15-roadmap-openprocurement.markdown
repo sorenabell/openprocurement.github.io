@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  "Roadmap: What we’re planning"
+title:  "Roadmap"
 menu_title: "Roadmap"
 lang: en
 categories: en
 ---
 
-This page contains the development roadmap for the Open Procurement toolkit. As we continue to improve the existing software, this list of modules and features will give you an insight into our plans.
+This page contains the development roadmap for the Open Procurement toolkit. The existing software is being continuously improved, this list of modules and features will give you an insight into its progress.
 
 ####RECENTLY COMPLETED
 
@@ -14,6 +14,17 @@ This page contains the development roadmap for the Open Procurement toolkit. As 
 * Separate servers to host CDB and auctions.
 * Horizontal scaling and load distribution across CDB servers.
 * Backup server with copies of system data.
+
+##[Log server](http://openprocurement.org/en/log-server.html)
+* Online logs using syslog protocol, JSON.
+* Logs from CDB, auctions, eMalls, CDB sandbox.
+* Logs archivation for audit needs.
+
+[Read more detailed specifications](http://openprocurement.org/en/log-server.html)
+
+##Non-price criteria
+* Opportunity to choose the most economically advantageous proposal - not only by price but also by additional non-price criteria.
+* Check that the sum of all non-price criteria of one tender does not exceed 30%.
 
 ####COMING SOON
 
@@ -23,13 +34,14 @@ This page contains the development roadmap for the Open Procurement toolkit. As 
 
 [Read more detailed specifications](http://openprocurement.org/en/test-stand.html) 
 
+##Multi-lot tender
+* Opportunity to divide the procurement procedure into parts - lots.
+* Automatic uniformity verification of the procurement subject for all lots and all nomenclatures of the tender.
+* Compatibility with lot-less procedures (for eMalls that do not support multi-lot tenders).
 
-##[Log server](http://openprocurement.org/en/log-server.html)
-* Online logs using syslog protocol, JSON.
-* Logs from CDB, auctions, eMalls, CDB sandbox.
-* Logs archivation for audit needs.
-
-[Read more detailed specifications](http://openprocurement.org/en/log-server.html)
+##Complaints
+* To implement the complaint mechanism for the below-threshold tenders via Complaint Review body at Transparency International Ukraine or another independent public organization that can make recommendations for Procuring entities.
+* To implement the complaint mechanism for the above-threshold tenders according to the articles 18 and 23 of the law on Public procurement.
 
 ####PLANNED
 
